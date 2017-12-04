@@ -11,7 +11,6 @@ function displayGifs () {
     url: queryURL,
     method: "GET"
   }).done(function (response) {
-    console.log(response)
     var results = response.data;
     for (var i = 0; i < results.length; i++) {
       var gifDiv = $("<div class='thumbnail gifBox'>");
