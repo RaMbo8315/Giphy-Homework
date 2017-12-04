@@ -48,7 +48,6 @@ function createButtons() {
 };
 
  function state () {
-  console.log($(this).attr("data-state"))
   var state = $(this).attr("data-state");
   if (state === "still") {
       $(this).attr("src", $(this).attr("data-animate"));
