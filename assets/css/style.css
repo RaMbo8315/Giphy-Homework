@@ -1,0 +1,45 @@
+
+body {
+    background: url('../images/image4.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.gifBox {
+    background-color: #336699;
+    color: white;
+    display: inline-block;
+    margin: 15px;
+}
+
+#storeBtn {
+    margin-left: 50px;
+}
+
+#gifDiv {
+    margin-right: 100px;
+}
+
+.navbar {
+    background-color: #3399ff;
+}
+
+.nav-p {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+div>p {  
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn, movie {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-weight: bold;
+    background-color: #336699;
+}
+
